@@ -1,0 +1,24 @@
+{
+  "name": "wiskundebijlesdeventer",
+  "version": "1.0.0",
+  "description": "This package contains all modules used for the website of wiskunde bijles Deventer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendynieuwkamer/WiskundeBijlesDeventer.git"
+  },
+  "author": "Wendy Nieuwkamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendynieuwkamer/WiskundeBijlesDeventer/issues"
+  },
+  "homepage": "https://github.com/wendynieuwkamer/WiskundeBijlesDeventer#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.4"
+  }
+}
