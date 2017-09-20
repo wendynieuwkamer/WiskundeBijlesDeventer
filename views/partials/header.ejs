@@ -40,11 +40,11 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
-						<li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-						<li><a href="/about">Wie ben ik?</a></li>
-						<li><a href="/werkwijze">Werkwijze</a></li>
-						<li><a href="/info">Praktische Info</a></li>
-						<li><a href="/contact">Contact</a></li>
+						<li class="<%= typeof page !== "undefined" && page === "home" ? "active" : ""%>"><a href="/">Home</a></li>
+						<li class="<%= typeof page !== "undefined" && page === "about" ? "active" : ""%>"><a href="/about">Wie ben ik?</a></li>
+						<li class="<%= typeof page !== "undefined" && page === "werkwijze" ? "active" : ""%>"><a href="/werkwijze">Werkwijze</a></li>
+						<li class="<%= typeof page !== "undefined" && page === "info" ? "active" : ""%>"><a href="/info">Praktische Info</a></li>
+						<li class="<%= typeof page !== "undefined" && page === "contact" ? "active" : ""%>"><a href="/contact">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 					</ul>

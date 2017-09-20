@@ -10,23 +10,23 @@ app.use(express.static(__dirname + "/public"));
 
 // ROUTES
 app.get("/", function(req, res){
-    res.render("index");
+    res.render("index", {page:"home"});
 });
 
 app.get("/about", function(req, res){
-    res.render("about");
+    res.render("about", {page:"about"});
 });
 
 app.get("/werkwijze", function(req, res){
-    res.render("werkwijze");
+    res.render("werkwijze", {page:"werkwijze"});
 });
 
 app.get("/info", function(req, res){
-    res.render("info");
+    res.render("info", {page:"info"});
 });
 
 app.get("/contact", function(req, res){
-    res.render("contact");
+    res.render("contact", {page:"contact"});
 });
 
 // START server
