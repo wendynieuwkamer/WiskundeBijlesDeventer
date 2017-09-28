@@ -58,3 +58,13 @@ main {
 form {
 	max-width: 500px;
 }
+
+.welcome {
+	background-image: url(/images/welcome.jpg);
+	background-size: cover;
+	background-position: bottom;
+}
+
+#welcome {
+	padding: 4em;
+}
