@@ -3,15 +3,10 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	background-image: url("/images/schoolbord.jpg");
 	background-size: 100%;
-}
-
-#container {
-	min-height: 100%;
-	position: relative;
-	background-color: white;
 }
 
 footer {
@@ -25,6 +20,10 @@ footer {
 	padding: 15px;
 }
 
+form {
+	max-width: 500px;
+}
+
 header {
 	color: #337ab7;
 }
@@ -33,13 +32,23 @@ header .row .col-sm-3{
 	margin: 1em 0;
 }
 
-#contact-button {
-	width: 100%;
-}
-
 main {
 	padding: 10px;
 	margin-bottom: 60px; /* Height of the footer */
+}
+
+.deco-img {
+	max-width: 100%;
+	max-height: 300px;
+	padding: 5px 0;
+}
+
+.header-link {
+	color: inherit;
+}
+
+.header-link:hover {
+	color: inherit;
 }
 
 .img-container {
@@ -49,20 +58,20 @@ main {
 	text-decoration: underline;
 }
 
-.deco-img {
-	max-width: 100%;
-	max-height: 300px;
-	padding: 5px 0;
-}
-
-form {
-	max-width: 500px;
-}
-
 .welcome {
 	background-image: url(/images/welcome.jpg);
 	background-size: cover;
 	background-position: bottom;
+}
+
+#contact-button {
+	width: 100%;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+	background-color: white;
 }
 
 #welcome {
