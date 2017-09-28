@@ -20,6 +20,10 @@ footer {
 	padding: 15px;
 }
 
+a {
+	color: #337ab7;
+}
+
 form {
 	max-width: 500px;
 }
