@@ -69,10 +69,12 @@ main {
 }
 
 .welcome {
-	background-image: url(/images/welcome.jpg);
+	background-image: url(/images/newwelcome.jpeg);
 	background-size: cover;
 	background-position: bottom;
 }
+
+
 
 
 #contact-button {
@@ -85,6 +87,20 @@ main {
 	background-color: white;
 }
 
+#index-contact-section {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding-top: 1em;
+}
+
+#index-contact-section a {
+	color: #1d338c;
+}
+
 #welcome {
 	padding: 4em;
+	color: white;
+}
+
+#welcome p{
+	max-width: 600px;
 }
